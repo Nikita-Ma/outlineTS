@@ -1,12 +1,13 @@
 import ReactDOM from "react-dom";
-
 import React from 'react';
+//
+import GuestList from "./state/GuestList";
 
 const App = () => {
-    return (
-        <>
-            <h1>Hi</h1>
-        </>
+    return(
+        <div>
+            <GuestList/>
+        </div>
     )
 };
 
