@@ -1,7 +1,10 @@
 import React from 'react';
-import {Child} from './Child'
+import App from '../index';
+import {ChildAsFC} from './Child'
 const Parent = () => {
-    return <Child color='blue' onClick={() => console.log('Click')}/>
+    return <ChildAsFC color='blue' onClick={() => console.log('Click')}>
+        asdad
+    </ChildAsFC>
 };
 
 export default Parent;
