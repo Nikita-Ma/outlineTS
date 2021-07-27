@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b4086d28-1f5e-4f39-be2c-89db5e30eafb" name="Default Changelist" comment="init proj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/rts/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rts/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jbook/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/jbook/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1uexBBeZTFBzeVgJoKYCh1nnfG3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,9 +38,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.4.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\github\outlineTS\rts\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\program\tool\WebStorm 2021.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +54,9 @@
       <option name="presentableId" value="Default" />
       <updated>1625039718332</updated>
       <workItem from="1625039724055" duration="1801000" />
+      <workItem from="1627335577279" duration="984000" />
+      <workItem from="1627410478261" duration="2113000" />
+      <workItem from="1627412841658" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="init proj">
       <created>1625046167046</created>
@@ -76,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init proj" />
