@@ -119,3 +119,35 @@
 
     }
 }
+
+{
+    interface Options {
+        hendler?: (el: Element, ...args: unknown[]) => number
+    }
+}
+
+{
+    function widget(name: string, params?: {}) {
+        if (arguments.length === 1) {
+            return getW(name)
+        }
+        regW(name, params)
+    }
+}
+
+{
+    let a: {[key: string | symbol]: number} = {}
+    a['dasdasd'] = 1
+
+}
+
+{
+    interface Foo {
+        a: number
+    }
+
+    interface Bar extends Foo {
+        b: number
+    }
+    let a: Bar = {a: 1, b: 2}
+}
