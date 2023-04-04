@@ -149,5 +149,50 @@
     interface Bar extends Foo {
         b: number
     }
+
     let a: Bar = {a: 1, b: 2}
 }
+
+
+{
+    interface Foo {
+        bla(): number;
+
+        foo: string
+    }
+
+
+    interface FooConstructor {
+        new(): Foo
+    }
+
+    class Bar implements Foo {
+        foo = 'sdsdsd';
+
+        bla() {
+            return 2121
+        }
+    }
+}
+
+{
+    class Foo {
+        bar = 1
+
+        bla() {
+            return this.bar
+        }
+    }
+
+    function fc(
+    function (this: { a: number })
+)
+    {
+
+    }
+}
+
+{
+    const a: [string, number, boolean] = ['', 1, false]
+}
+
