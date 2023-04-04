@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4086d28-1f5e-4f39-be2c-89db5e30eafb" name="Default Changelist" comment="repeat pure typescript">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boundler/src/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boundler/src/message.ts" afterDir="false" />
     </list>
@@ -86,7 +85,7 @@
       <workItem from="1627412841658" duration="1185000" />
       <workItem from="1680535451731" duration="4837000" />
       <workItem from="1680548557868" duration="2774000" />
-      <workItem from="1680633176483" duration="3812000" />
+      <workItem from="1680633176483" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="init proj">
       <created>1625046167046</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680552109928</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="repeat pure typescript">
+      <created>1680637531767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680637531767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

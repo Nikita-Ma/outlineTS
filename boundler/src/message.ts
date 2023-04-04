@@ -196,3 +196,18 @@
     const a: [string, number, boolean] = ['', 1, false]
 }
 
+{
+    function id(value: string | boolean) : string;
+    // generic
+    function id<T>(value: T) : T;
+    function id<T = number>(value: T) : T;
+    function id<T extends Array<any>>(value: T) : T;
+    function id(value: string | boolean) : boolean;
+    function id(value: string | boolean) : boolean | string {
+        return  value
+    }
+
+    id('3232')
+}
+
+}
