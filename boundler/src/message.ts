@@ -210,4 +210,37 @@
     id('3232')
 }
 
+{
+    class Optional<T> {
+        #value: T;
+
+        constructor(value: T) {
+            this.#value = value
+        }
+
+        getValue(): T {
+            return this.#value
+        }
+    }
+
+    let a: Optional<number> = new Optional(10)
+
+    function foo(val: Optional<number>) {
+
+    }
+}
+
+
+{
+    type Head<A extends any[]> = {
+        0: never
+        1: A extends [] ? never : A extends [h: infer H, ...args: any[] ? H: unknow]
+    }[A extends [] ? 0 : 1]
+    let h: Head<[1, 2]>
+}
+
+{
+    function toSet<T>(arr: unknown[]):T {
+        return <T>(new Set(arr))
+    }
 }
