@@ -244,3 +244,68 @@
         return <T>(new Set(arr))
     }
 }
+
+{
+    // Type annotations
+    function addNumbers(a: number, b: number): number {
+        return a + b;
+    }
+
+// Interfaces
+    interface Person {
+        name: string;
+        age: number;
+    }
+
+// Classes
+    class Employee implements Person {
+        name: string;
+        age: number;
+        salary: number;
+
+        constructor(name: string, age: number, salary: number) {
+            this.name = name;
+            this.age = age;
+            this.salary = salary;
+        }
+
+        getInfo(): string {
+            return `${this.name} is ${this.age} years old and earns ${this.salary} per month.`;
+        }
+    }
+
+    const john = new Employee("John", 35, 5000);
+    console.log(john.getInfo()); // "John is 35 years old and earns 5000 per month."
+
+}
+
+
+{
+    class Person {
+        name: string;
+        age: number;
+
+        constructor(name: string, age: number) {
+            this.name = name;
+            this.age = age;
+        }
+
+        getInfo(): string {
+            return `${this.name} is ${this.age} years old.`;
+        }
+    }
+
+    class Employee extends Person {
+        salary: number;
+
+        constructor(name: string, age: number, salary: number) {
+            super(name, age);
+            this.salary = salary;
+        }
+
+        getInfo(): string {
+            return `${super.getInfo()} They earn ${this.salary} per month.`;
+        }
+    }
+
+}
