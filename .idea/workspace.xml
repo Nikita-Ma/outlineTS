@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4086d28-1f5e-4f39-be2c-89db5e30eafb" name="Default Changelist" comment="repeat pure typescript">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2439c26c-c84c-404c-a566-80981c2d6a82" name="Changes" comment="init proj">
       <change beforePath="$PROJECT_DIR$/boundler/src/message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/boundler/src/message.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="5e0a3ec400eea38247ef2a86688b2b88e042b9cc" />
+        <entry key="$PROJECT_DIR$" value="6617da15f65d1624b699568ab6c79adf67ad3d0c" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +51,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1680728346" />
+                    <option name="lastUsedInstant" value="1680816792" />
                   </RecentBranch>
                 </list>
               </option>

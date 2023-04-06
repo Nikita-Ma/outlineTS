@@ -309,3 +309,58 @@
     }
 
 }
+
+{
+
+    interface Props {
+        name: string;
+        age: number;
+    }
+
+    const MyComponent: React.FC<Props> = ({ name, age }) => {
+        return (
+            <div>
+                <p>Name: {name}</p>
+        <p>Age: {age}</p>
+        </div>
+    );
+    };
+
+    export default MyComponent;
+}
+
+
+{
+    import React, { useState, useEffect } from 'react';
+
+    interface Props {
+        initialCount: number;
+    }
+
+    const Counter: React.FC<Props> = ({ initialCount }) => {
+        const [count, setCount] = useState(initialCount);
+
+        useEffect(() => {
+            document.title = `Count: ${count}`;
+        }, [count]);
+
+        const handleIncrement = () => {
+            setCount(count + 1);
+        };
+
+        const handleDecrement = () => {
+            setCount(count - 1);
+        };
+
+        return (
+            <div>
+                <p>Count: {count}</p>
+        <button onClick={handleIncrement}>Increment</button>
+            <button onClick={handleDecrement}>Decrement</button>
+            </div>
+    );
+    };
+
+    export default Counter;
+
+}
